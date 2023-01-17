@@ -28,6 +28,9 @@ jobs:
         with:
           node-version: "18"
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Cache Node Modules
         id: node-cache
         uses: actions/cache@v3
@@ -37,7 +40,7 @@ jobs:
 
       - name: Install dependencies
         if: steps.node-cache.outputs.cache-hit != 'true'
-        run: npm ci
+        run: pnpm install
 
   build-docs:
     name: Build Docs
@@ -63,7 +66,7 @@ jobs:
         run: echo "NODE_ENV=production" >> $GITHUB_ENV
 
       - name: Static HTML export with Nuxt
-        run: npm run generate
+        run: pnpm run generate
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
