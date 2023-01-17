@@ -1,28 +1,58 @@
 export default defineAppConfig({
   docus: {
-    title: 'Docus',
-    description: 'The best place to start your documentation.',
-    image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
+    title: 'ArmoniK',
+    description: 'ArmoniK Documentation',
     socials: {
-      twitter: 'nuxt_themes',
-      github: 'nuxt-themes/docus',
+      website: {
+        label: "Website",
+        href: "https://armonik.fr",
+        icon: "mdi:web",
+      },
+      linkedin: {
+        label: "LinkedIn",
+        href: "https://www.linkedin.com/company/aneo/",
+        icon: "mdi:linkedin",
+      },
+      twitter: "https://twitter.com/ANEOConseil",
+      github: "aneoconsulting/ArmoniK.Api",
     },
     aside: {
-      level: 0,
-      exclude: []
+      level: 1,
+      exclude: [],
     },
     header: {
       logo: true,
       showLinkIcon: true,
-      exclude: []
+      exclude: [],
     },
     footer: {
-      iconLinks: [
+      credits: {
+        href: "https://aneo.fr",
+        icon: "LogosAneo",
+      },
+      textLinks: [
         {
-          href: 'https://nuxt.com',
-          icon: 'IconNuxtLabs'
-        }
-      ]
-    }
-  }
+          text: "ArmoniK",
+          target: "_blank",
+          href: "https://aneoconsulting.github.io/ArmoniK/",
+        },
+        {
+          text: "ArmoniK.Core",
+          target: "_blank",
+          href: "https://aneoconsulting.github.io/ArmoniK.Core/",
+        },
+        {
+          text: "ArmoniK.Api",
+          target: "_blank",
+          href: "https://aneoconsulting.github.io/ArmoniK.Api/",
+        },
+        {
+          text: "ArmoniK.Admin.GUI",
+          target: "_blank",
+          href: "https://aneoconsulting.github.io/ArmoniK.Admin.GUI/",
+        },
+      ],
+      iconLinks: [],
+    },
+  },
 })

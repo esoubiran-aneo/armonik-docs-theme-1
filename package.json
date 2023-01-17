@@ -1,5 +1,5 @@
 {
-  "name": "docus-starter",
+  "name": "@aneoconsulting/armonik-docs-theme",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,17 @@
     "generate": "nuxi generate",
     "preview": "nuxi preview"
   },
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "files": [
+    "components/",
+    "composables/",
+    "app.config.ts",
+    "nuxt.config.ts",
+    "tokens.config.ts"
+  ],
   "devDependencies": {
     "nuxt": "^3.0.0",
-    "@nuxt-themes/docus": "^1.1.5"
+    "@nuxt-themes/docus": "^1.4.6"
   }
 }
