@@ -27,7 +27,7 @@ export default defineAppConfig({
     },
     footer: {
       credits: {
-        href: "https://aneo.fr",
+        href: "https://www.aneo.eu",
         icon: "LogosAneo",
       },
       textLinks: [
