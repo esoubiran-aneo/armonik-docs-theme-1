@@ -1,57 +1,37 @@
-# Docus Starter
 
-Starter template for [Docus](https://docus.dev).
+# ArmoniK Docs Theme
 
-## Clone
+[![NPM version](https://img.shields.io/npm/v/aneoconsulting/armonik-docs-theme?color=3AB9D4&label=)](https://www.npmjs.com/package/aneoconsulting/armonik-docs-theme)
 
-Clone the repository (using `nuxi`):
+A theme to harmonize and easily maintain each ArmoniK Documentation.
 
-```bash
-npx nuxi init -t themes/docus
+
+## Tech Stack
+
+**Client:** Nuxt, Nuxt Content
+
+
+## Documentation
+
+[Documentation](https://aneoconsulting.github.io/armonik-docs-theme)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `CONTRIBUTING.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+### Local setup
+
+Clone the repository and run on the root folder:
+
+```sh
+pnpm i
+pnpm run dev
 ```
+## Authors
 
-## Setup
-
-Install dependencies:
-
-```bash
-yarn install
-```
-
-## Development
-
-```bash
-yarn dev
-```
-
-## Edge Side Rendering
-
-Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
-
-Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
-
-```bash
-yarn build
-```
-
-## Static Generation
-
-Use the `generate` command to build your application.
-
-The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
-
-```bash
-yarn generate
-```
-
-## Preview build
-
-You might want to preview the result of your build locally, to do so, run the following command:
-
-```bash
-yarn preview
-```
-
----
-
-For a detailed explanation of how things work, check out [Docus](https://docus.dev).
+- [@esoubiran-aneo](https://www.github.com/esoubiran-aneo)
