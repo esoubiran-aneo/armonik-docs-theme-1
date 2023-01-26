@@ -6,7 +6,8 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
-    "preview": "nuxi preview"
+    "preview": "nuxi preview",
+    "ci:publish": "zx scripts/publish.mjs"
   },
   "type": "module",
   "main": "./nuxt.config.ts",
@@ -18,7 +19,8 @@
     "tokens.config.ts"
   ],
   "devDependencies": {
+    "@nuxt-themes/docus": "^1.4.6",
     "nuxt": "^3.0.0",
-    "@nuxt-themes/docus": "^1.4.6"
+    "zx": "^7.1.1"
   }
 }
