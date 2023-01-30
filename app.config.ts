@@ -14,11 +14,18 @@ export default defineAppConfig({
         icon: "mdi:linkedin",
       },
       twitter: "https://twitter.com/ANEOConseil",
-      github: "aneoconsulting/ArmoniK.Api",
+      github: "aneoconsulting/armonik-docs-theme",
     },
     aside: {
       level: 1,
       exclude: [],
+    },
+    github: {
+      dir: 'content',
+      branch: 'main',
+      repo: 'armonik-docs-theme',
+      owner: 'aneoconsulting',
+      edit: true
     },
     header: {
       logo: true,

@@ -28,8 +28,8 @@
     "tokens.config.ts"
   ],
   "dependencies": {
-    "@nuxt-themes/docus": "^1.4.6",
-    "nuxt": "^3.0.0"
+    "@nuxt-themes/docus": "^1.6.3",
+    "nuxt": "^3.1.1"
   },
   "devDependencies": {
     "zx": "^7.1.1"
