@@ -1,6 +1,7 @@
 {
   "name": "@aneoconsultingfr/armonik-docs-theme",
   "packageManager": "pnpm@7.25.1",
+  "description": "A theme to harmonize and easily maintain each ArmoniK Documentation.",
   "version": "0.1.0",
   "scripts": {
     "dev": "nuxi dev",
@@ -9,18 +10,28 @@
     "preview": "nuxi preview",
     "ci:publish": "zx scripts/publish.mjs"
   },
+  "homepage": "https://github.com/aneoconsulting/armonik-docs-theme#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aneoconsulting/armonik-docs-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aneoconsulting/armonik-docs-theme/issues"
+  },
   "type": "module",
-  "main": "./nuxt.config.ts",
+  "main": "nuxt.config.ts",
   "files": [
-    "components/",
-    "composables/",
+    "components",
+    "composables",
     "app.config.ts",
     "nuxt.config.ts",
     "tokens.config.ts"
   ],
-  "devDependencies": {
+  "dependencies": {
     "@nuxt-themes/docus": "^1.4.6",
-    "nuxt": "^3.0.0",
+    "nuxt": "^3.0.0"
+  },
+  "devDependencies": {
     "zx": "^7.1.1"
   }
 }
