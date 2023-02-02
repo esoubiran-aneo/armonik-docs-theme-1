@@ -28,7 +28,7 @@
     "tokens.config.ts"
   ],
   "dependencies": {
-    "@nuxt-themes/docus": "^1.6.3",
+    "@nuxt-themes/docus": "^1.7.2",
     "nuxt": "^3.1.1"
   },
   "devDependencies": {
