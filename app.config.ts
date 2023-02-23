@@ -3,17 +3,18 @@ export default defineAppConfig({
     title: 'ArmoniK',
     description: 'ArmoniK Documentation',
     socials: {
-      website: {
-        label: "Website",
-        href: "https://armonik.fr",
-        icon: "mdi:web",
-      },
       linkedin: {
         label: "LinkedIn",
         href: "https://www.linkedin.com/company/aneo/",
         icon: "mdi:linkedin",
       },
+      instagram: "https://www.instagram.com/aneoconsulting/",
       twitter: "https://twitter.com/ANEOConseil",
+      website: {
+        label: "Website",
+        href: "https://armonik.fr",
+        icon: "mdi:web",
+      },
       github: "aneoconsulting/armonik-docs-theme",
     },
     aside: {
