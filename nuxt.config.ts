@@ -19,6 +19,6 @@ export default defineNuxtConfig({
   extends: '@nuxt-themes/docus',
 
   plugins: [
-    resolve('./plugins/mermaid.client.js')
+    resolve('./plugins/mermaid.client.ts')
   ],
 })
