@@ -1,7 +1,9 @@
-import { logger } from '@nuxt/kit'
+import { logger, createResolver } from '@nuxt/kit'
 import { version } from './package.json'
 
 logger.success(`Using ArmoniK Docs Theme v${version}`)
+
+const { resolve } = createResolver(import.meta.url)
 
 export default defineNuxtConfig({
   app: {
@@ -14,7 +16,9 @@ export default defineNuxtConfig({
     }
   },
 
-  extends: '@nuxt-themes/docus'
+  extends: '@nuxt-themes/docus',
 
-
+  plugins: [
+    resolve('./plugins/mermaid.client.js')
+  ],
 })
