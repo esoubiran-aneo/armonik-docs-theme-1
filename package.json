@@ -23,6 +23,7 @@
   "files": [
     "components",
     "composables",
+    "plugins",
     "app.config.ts",
     "nuxt.config.ts",
     "tokens.config.ts"
