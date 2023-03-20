@@ -29,8 +29,8 @@
   ],
   "dependencies": {
     "@nuxt-themes/docus": "^1.9.9",
-    "mermaid": "^10.0.2",
-    "nuxt": "^3.3.1"
+    "mermaid": "10.0.0",
+    "nuxt": "3.2.1"
   },
   "devDependencies": {
     "zx": "^7.2.1"
