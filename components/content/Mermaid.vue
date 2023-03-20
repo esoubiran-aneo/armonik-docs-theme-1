@@ -1,13 +1,15 @@
 <script setup lang="ts">
-import mermaid from "mermaid"
-
 let show = ref(false);
+
+const { $mermaid } = useNuxtApp()
 
 onMounted(async () => {
   show.value = true
-  mermaid.initialize({ startOnLoad: true })
+  // @ts-ignore
+  $mermaid().initialize({ startOnLoad: true })
   await nextTick()
-  mermaid.init();
+  // @ts-ignore
+  $mermaid().init();
 })
 
 </script>

@@ -1,6 +1,6 @@
 {
   "name": "@aneoconsultingfr/armonik-docs-theme",
-  "packageManager": "pnpm@7.25.1",
+  "packageManager": "pnpm@7.30.0",
   "description": "A theme to harmonize and easily maintain each ArmoniK Documentation.",
   "version": "0.5.1",
   "scripts": {
@@ -28,11 +28,11 @@
     "tokens.config.ts"
   ],
   "dependencies": {
-    "@nuxt-themes/docus": "^1.9.0",
-    "mermaid": "^10.0.0",
-    "nuxt": "^3.2.3"
+    "@nuxt-themes/docus": "^1.9.9",
+    "mermaid": "^10.0.2",
+    "nuxt": "^3.3.1"
   },
   "devDependencies": {
-    "zx": "^7.2.0"
+    "zx": "^7.2.1"
   }
 }
